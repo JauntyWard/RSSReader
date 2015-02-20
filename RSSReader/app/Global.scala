@@ -108,7 +108,7 @@ object Global extends GlobalSettings {
     }))
 
     //fetch the RSS feed every 10 minutes, this is a reasonably arbitrary interval
-    Akka.system.scheduler.schedule(0 seconds, 1 minutes, fetchRSSActor, "tick")
+    Akka.system.scheduler.schedule(0 seconds, 10 minutes, fetchRSSActor, "tick")
 
   }
 }
