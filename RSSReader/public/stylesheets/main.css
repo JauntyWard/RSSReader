@@ -1,0 +1,44 @@
+
+html,body {
+    height:100%;
+    font-family: 'Helvetica', sans-serif;
+}
+
+h1 {
+    font-size:80px;
+    color:#FFFFFF;
+}
+
+h2{
+    color:#000000;
+    font-size:80px;
+
+}
+
+.lead {
+    color:#000000;
+}
+
+
+/* Custom container */
+.container-full {
+    margin: 0 auto;
+    width: 100%;
+    min-height:40%;
+    background-color:#110022;
+    color:#eee;
+    overflow:hidden;
+}
+
+.items {
+    text-align: left;
+}
+
+.container-full a {
+    color:#efefef;
+    text-decoration:none;
+}
+
+.v-center {
+    margin-top:7%;
+}
